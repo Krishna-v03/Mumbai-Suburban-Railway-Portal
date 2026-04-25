@@ -1,0 +1,28 @@
+/* append to styles.css */
+
+/* DB Status */
+.db-status {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 100px;
+  letter-spacing: 0.3px;
+  margin-right: 8px;
+}
+.db-ok  { background: var(--green-lt); color: var(--green); }
+.db-err { background: var(--red-lt);   color: var(--red);   }
+.db-status:not(.db-ok):not(.db-err) { background: #f1f5f9; color: var(--muted); }
+
+/* Delete button in table */
+.btn-del {
+  background: none;
+  border: 1px solid #fca5a5;
+  color: var(--red);
+  font-size: 0.72rem;
+  font-weight: 500;
+  padding: 3px 9px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.btn-del:hover { background: var(--red-lt); }

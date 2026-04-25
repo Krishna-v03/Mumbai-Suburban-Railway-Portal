@@ -1,0 +1,24 @@
+{
+  "name": "mumbai-local-concession",
+  "version": "1.0.0",
+  "description": "Mumbai Local Railway Student Concession Portal",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "db": "node view_db.js",
+    "db:stats": "node view_db.js stats",
+    "db:employees": "node view_db.js employees",
+    "db:students": "node view_db.js students",
+    "db:passes": "node view_db.js passes",
+    "db:watch": "node view_db.js watch",
+    "db:watch:emp": "node view_db.js watch employees",
+    "db:watch:stu": "node view_db.js watch students",
+    "db:watch:pass": "node view_db.js watch passes"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.3",
+    "mysql2": "^3.20.0"
+  }
+}
