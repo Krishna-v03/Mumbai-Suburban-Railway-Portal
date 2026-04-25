@@ -2,7 +2,7 @@
 
 A modern, full-stack digital platform designed for Mumbai Suburban Railway staff to issue and manage student railway concessions efficiently.
 
-## 🚀 Overview
+## Overview
 
 This portal streamlines the process of issuing student railway passes for the Mumbai suburban network. It replaces manual record-keeping with a robust digital system, ensuring accuracy, speed, and easy retrieval of records.
 
@@ -14,12 +14,12 @@ This portal streamlines the process of issuing student railway passes for the Mu
 - **Digital Record Keeping**: A centralized dashboard to view all historical concession records.
 - **Print-Ready Pass Generation**: Instant generation of digital passes with unique IDs and barcodes.
 
-## 🛠️ Technology Stack
+## Technology Stack
 - **Frontend**: HTML5, Vanilla CSS3 (Glassmorphism design), JavaScript (ES6+)
 - **Backend**: Node.js, Express.js
 - **Database**: MySQL (optimized for normalized records)
 
-## 📦 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Node.js installed
@@ -46,8 +46,5 @@ This portal streamlines the process of issuing student railway passes for the Mu
    ```
 5. **Access the portal**: Open `http://localhost:3000` in your browser.
 
-## 📸 Screenshots
-*(Add your screenshots here)*
-
-## 📄 License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
